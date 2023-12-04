@@ -1,8 +1,17 @@
+ /*
+ *
+ * Description: 
+ * This program creates a dictionary with an entry of name and phone number.
+ * It can save the file in multi-line format, remove an entry, search or even display 
+ * all entries that were added. These all can be done with an easy to use MENU.
+ * 
+ * Date: December 5th 2023
+ * Authors: Eduardo Perez Rocha
+ * 
+ */
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class Decompress {
@@ -10,11 +19,11 @@ public class Decompress {
         String fileName = args[0];
         String extension = getFileExtension(fileName);
         
-        if (extension.equals("zzz")){
-            System.out.println("S");
+        if (!extension.equals("zzz")){
+            System.out.println("FILE not VALID, please try again");
+            System.exit(0);
         }
         decompress(fileName);
-        System.out.println(extension);
         // You might want to use 'extension' and 'fileName' here for further processing
     }
 
@@ -51,6 +60,7 @@ public class Decompress {
             e.printStackTrace();
         }
     }
+
     public static String getFileName() {
         System.out.print("Please enter the name of the file: ");
         Scanner input = new Scanner(System.in);
