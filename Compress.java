@@ -11,7 +11,7 @@
  * 
  * 
  * Date: December 5th 2023
- * Authors: Eduardo Perez Rocha & Jack Neumann
+ * Authors: Eduardo Perez Rocha
  * 
  */
 
