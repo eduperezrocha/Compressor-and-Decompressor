@@ -1,5 +1,9 @@
 import java.util.LinkedList;
-
+ /*
+ * 
+ * Authors: Eduardo Perez Rocha
+ * 
+ */
 public class KWhashMap<K, V> {
     private class Entry<K, V> {
         private final K key;
