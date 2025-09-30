@@ -9,8 +9,6 @@
  * incorrect file name entries. The implementation involves the use of chained and ideal hashing 
  * techniques for the creation of dictionaries in the compression and decompression stages, respectively. 
  * 
- * 
- * Date: December 5th 2023
  * Authors: Eduardo Perez Rocha
  * 
  */
