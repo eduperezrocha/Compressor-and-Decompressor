@@ -2,8 +2,7 @@
  * 
  * Description: This program decompresses the data made by the compressor with the 
  * extension .zzz. It then creates an ouput file with all the data gotten.
- * Date: December 5th 2023
- * Authors: Eduardo Perez Rocha & Jack Neumann
+ * Authors: Eduardo Perez Rocha
  * 
  */
 import java.io.DataInputStream;
